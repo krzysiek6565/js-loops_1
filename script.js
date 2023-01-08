@@ -13,6 +13,7 @@ function isPrime(num) {
 
 while(i > 1){
   if(isPrime(i))
+    //template literal
     para.textContent += `${i}, `;
     i--;
 }
